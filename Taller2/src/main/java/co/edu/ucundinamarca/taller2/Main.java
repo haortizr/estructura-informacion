@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
  */
 public class Main {
 
-    
     static Logger log = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
@@ -18,9 +17,9 @@ public class Main {
         Persona personaDos = new Persona("Hanner", 10, 20);
 
         if (personaUno.equals(personaDos)) {
-            System.out.println("******* Instacias Iguales *********");
+            log.info("******* Instacias Iguales *********");
         } else {
-            System.out.println("******* Instacias Diferentes *********");
+            log.info("******* Instacias Diferentes *********");
         }
     }
 
