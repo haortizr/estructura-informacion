@@ -13,7 +13,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        
         Persona personaUno = new Persona("Hanner", 10, 20);
         Persona personaDos = new Persona("Hanner", 10, 20);
 
